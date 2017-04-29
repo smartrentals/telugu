@@ -27,7 +27,6 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word("ten", "padhi"));
 
         Log.i("NumbersActivity", "word at index[2]" + words.get(2));
-        Log.i("NumbersActivity", "size of words" + words.size());
 
 //        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, R.layout.simple_list_item_1, words); //for one textview
         WordAdapter adapter = new WordAdapter(this, words);
